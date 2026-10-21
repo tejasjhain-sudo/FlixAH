@@ -1,0 +1,20 @@
+# ==========================================
+# FlixAH - Config by FlixStudios
+# ==========================================
+
+settings:
+  # Duration in hours before an unpurchased item expires
+  listing-duration-hours: 24
+  # Minimum allowed listing price
+  min-price: 10
+  # Maximum allowed listing price
+  max-price: 1000000000
+  # Listing tax percentage (e.g. 5.0 for 5%)
+  listing-tax-percent: 2.5
+  # Max active listings per normal player
+  max-listings-default: 5
+
+gui:
+  title: "&8» &0Auction House &8(Page {page})"
+  mail-title: "&8» &0Your Expired / Won Items"
+  rows: 6

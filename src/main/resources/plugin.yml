@@ -1,0 +1,26 @@
+name: FlixAH
+version: 1.0.0
+main: gg.flixstudios.auction.FlixAH
+api-version: '1.21'
+author: FlixStudios (Tejas)
+description: Clean, high-performance Auction House for PaperMC.
+website: https://github.com/tejasjhain-sudo/FlixAH
+depend: [Vault]
+
+commands:
+  ah:
+    description: Open the auction house or list items.
+    aliases: [auction, auctionhouse]
+    permission: flixah.use
+    usage: /<command> [sell <price>|mail|reload]
+
+permissions:
+  flixah.use:
+    description: Allows players to open and browse the auction house.
+    default: true
+  flixah.sell:
+    description: Allows players to list items on the auction house.
+    default: true
+  flixah.admin:
+    description: Allows reloading and managing any auction.
+    default: op
